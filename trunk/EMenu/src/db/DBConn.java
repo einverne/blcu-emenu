@@ -94,8 +94,8 @@ public class DBConn {
 		//dbConn.close();
 //		Menu m=new Menu();
 //		m.selectMenu(1);
-		Dish d=new Dish();
-		d.selectAll();
+		Course c=new Course();
+		c.ListCourseByMenu(1);
 
 	}
 }

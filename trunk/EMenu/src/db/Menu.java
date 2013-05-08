@@ -44,8 +44,7 @@ public class Menu {
 	{
 		boolean total = false;
 		DBConn dbConn = new DBConn();
-		String sql="call menu." +
-				"count_price('"+menuNo+"')";
+		String sql="call menu.count_price('"+menuNo+"')";
 		try {
 			total =dbConn.stmtStatement.execute(sql);
 		} catch (SQLException e) {

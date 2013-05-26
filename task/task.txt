@@ -1,0 +1,13 @@
+界面类：
+用户界面
+查看菜单的界面（新菜，推荐菜，热销菜，各类菜）（einverne，wangzhen）
+查看单个菜品的界面（wangchao）
+
+管理员界面
+管理员登录（weiliyong）Cookie问题，Session问题
+（已完成）查看所有菜单（删除一道菜）
+（已完成）修改某一道菜
+（）增加一道菜（未实现图片功能）（einverne）
+
+Servlet:
+LoginServlet 
